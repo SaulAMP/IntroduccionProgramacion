@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+}
+
+header{
+    /* position: sticky;
+    top: 0;
+    z-index: 1; */
+    background-color: white;
+}
+nav{
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    
+}
+nav ul li{
+    display:inline-block;
+    padding: 5px 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    margin: 0px 80px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+footer a:hover{
+    color:black;
+}
+a:hover{
+    color: red;
+}
+nav ul li:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
+.titulo:hover{
+    color: black;
+}

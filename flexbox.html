@@ -5,17 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FLEXBOX</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header>
-        <nav></nav>
+        <a class="titulo" href="./index.html"><h2 data-aos="fade-down" data-aos-duration="1500">En esta zona encotraras todo los proyectos realizados en la materia</h2>
+            <h1>INTRODUCCION A LA PROGRAMACION</h1></a>
+        <nav class="menu">
+            <ul>
+                <li data-aos="fade-right" data-aos-duration="1500"><a href="./tablareto.html">TABLERO</a></li>
+                <li data-aos="fade-right" data-aos-duration="1500"><a href="./formulario.html">FORMULARIO</a></li>
+                <li data-aos="fade-left" data-aos-duration="1500"><a href="./flexbox.html">FLEXBOX</a></li>
+                <li data-aos="fade-left" data-aos-duration="1500"><a href="./cajero.html">MAQUETACION CAJERO</a></li>
+            </ul>
+        </nav>
     </header>
     <main></main>
-    <footer>
-        <p>Desarrollador. Saúl Arcángel Molina Peña</p>
-        <p>Programa Desarrollo de Software</p>
-        <p>Introduccion a la programacion.</p>
-        <p>CESDE - 2023</p>
+    <footer data-aos="fade-up" data-aos-duration="1500">
+        <hr>
+        <p><a href="https://github.com/SaulAMP" target="_blank">Desarrollador Saúl Arcángel Molina Peña</a></p>
+        <p>Introduccion a la Programacion</p>
+        <p>Desarrollo de software</p>
+        <p>Cesde - 2023</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(
+
+        );
+      </script>
 </body>
 </html>
